@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/wallet"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:textColor="#2EA1E4"
+        android:text="Your own e-Wallet center"
+        android:textSize="25dp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/money"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/wallet"/>
+
+    <TextView
+        android:id="@+id/manage"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_below="@+id/wallet"
+        android:textColor="@color/colorAbu"
+        android:textStyle="bold"
+        android:text="Manage your e-Wallet accounts in one place. You can top up and save your e-Wallet accounts for future transactions"
+        android:textSize="18dp"/>
+
+    <TextView
+        android:id="@+id/start"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="30dp"
+        android:layout_below="@+id/manage"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:text="START TOP UP"
+        android:textSize="20dp"/>
+
+    <RelativeLayout
+        android:id="@+id/garisRl"
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:layout_below="@+id/start"
+        android:layout_marginTop="25dp"
+        android:background="@color/colorAbu"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_below="@+id/garisRl"
+        android:background="#2EA1E4"/>
+
+
+
+
+
+</RelativeLayout>

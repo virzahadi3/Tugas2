@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/img"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/avatar"/>
+
+    <TextView
+        android:id="@+id/Tvnama"
+        android:layout_width="255dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/img"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="nama"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/Tvtanggal"
+        android:layout_width="255dp"
+        android:layout_height="wrap_content"
+        android:text="nomor"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/img"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/Tvnama"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/Tvuang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/Tvnama"
+        android:layout_marginTop="10dp"
+        android:text="uang"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/Tvproses"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Tvnama"
+        android:layout_toRightOf="@+id/Tvtanggal"
+        android:layout_marginTop="10dp"
+        android:text="proses"
+        android:textSize="15dp" />
+
+
+
+
+</RelativeLayout>
